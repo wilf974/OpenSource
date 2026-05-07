@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0d1117" />
+
+<!-- Primary SEO -->
+<title>wilf974 · Outils open source déterministes & auditables · Wilfred Maillot</title>
+<meta name="description" content="Six outils open source 100% navigateur, sans backend, sans tracking : aide à la décision sapeurs-pompiers, scoring clinique d'urgence, prévention coup de chaleur, audit fiche de paie française, audit biais cognitifs, et linter scientifique VERITAS." />
+<meta name="keywords" content="open source, vanilla javascript, github pages, sapeurs-pompiers, NEWS2 qSOFA HEART, heat index WBGT NIOSH, audit paie PDF, biais cognitifs, peer review, scientific claims, deterministic, auditable, sans backend, mobile first, no tracking, Wilfred Maillot, wilf974" />
+<meta name="author" content="Wilfred Maillot" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+<meta name="googlebot" content="index, follow" />
+<meta name="language" content="French" />
+<meta name="rating" content="general" />
+
+<!-- Canonical -->
+<link rel="canonical" href="https://wilf974.github.io/OpenSource/" />
+<link rel="alternate" hreflang="fr" href="https://wilf974.github.io/OpenSource/" />
+<link rel="alternate" hreflang="x-default" href="https://wilf974.github.io/OpenSource/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="wilf974 · Outils open source déterministes & auditables" />
+<meta property="og:description" content="Six outils 100% navigateur, sans backend, sans tracking : pompiers, médecine d'urgence, chaleur, paie, biais cognitifs, peer review scientifique." />
+<meta property="og:url" content="https://wilf974.github.io/OpenSource/" />
+<meta property="og:site_name" content="wilf974 / Open Source" />
+<meta property="og:locale" content="fr_FR" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="wilf974 · Open Source Tools" />
+<meta name="twitter:description" content="6 outils open source déterministes, auditables, sans backend." />
+
+<!-- JSON-LD structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://wilf974.github.io/OpenSource/#website",
+      "url": "https://wilf974.github.io/OpenSource/",
+      "name": "wilf974 / Open Source",
+      "description": "Outils open source déterministes, auditables, 100 % navigateur",
+      "inLanguage": "fr-FR",
+      "publisher": { "@id": "https://wilf974.github.io/OpenSource/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://wilf974.github.io/OpenSource/#person",
+      "name": "Wilfred Maillot",
+      "alternateName": "wilf974",
+      "url": "https://github.com/wilf974"
+    },
+    {
+      "@type": "ItemList",
+      "name": "Outils open source de wilf974",
+      "numberOfItems": 6,
+      "itemListElement": [
+        {
+          "@type": "SoftwareApplication",
+          "position": 1,
+          "name": "FireOps",
+          "applicationCategory": "DecisionSupportApplication",
+          "operatingSystem": "Web Browser",
+          "description": "Aide à la décision sapeurs-pompiers : hydraulique, ARI, NRBC, NOVI",
+          "url": "https://wilf974.github.io/FireOps/",
+          "downloadUrl": "https://github.com/wilf974/FireOps",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "position": 2,
+          "name": "MedTriage",
+          "applicationCategory": "MedicalApplication",
+          "operatingSystem": "Web Browser",
+          "description": "Scoring clinique d'urgence (NEWS2, qSOFA, HEART) avec fusion conservatrice",
+          "url": "https://wilf974.github.io/MedTriage/",
+          "downloadUrl": "https://github.com/wilf974/MedTriage",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "position": 3,
+          "name": "HeatGuard",
+          "applicationCategory": "HealthApplication",
+          "operatingSystem": "Web Browser",
+          "description": "Prévention coup de chaleur : Heat Index + WBGT + plan NIOSH",
+          "url": "https://wilf974.github.io/HeatGuard/",
+          "downloadUrl": "https://github.com/wilf974/HeatGuard",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "position": 4,
+          "name": "MindMirror",
+          "applicationCategory": "EducationApplication",
+          "operatingSystem": "Web Browser",
+          "description": "Audit URL + test 12 biais cognitifs + formation manipulations",
+          "url": "https://wilf974.github.io/MindMirror/",
+          "downloadUrl": "https://github.com/wilf974/MindMirror",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "position": 5,
+          "name": "PaieAudit",
+          "applicationCategory": "FinanceApplication",
+          "operatingSystem": "Web Browser",
+          "description": "Audit fiche de paie française : extraction PDF, vérifications mathématiques, indemnités",
+          "url": "https://wilf974.github.io/PaieAudit/",
+          "downloadUrl": "https://github.com/wilf974/PaieAudit",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "position": 6,
+          "name": "VERITAS Stack",
+          "applicationCategory": "ResearchApplication",
+          "operatingSystem": "Web Browser",
+          "description": "Linter symbolique pour claims scientifiques numériques : 6 algorithmes (génération, attestation, consensus, réfutation)",
+          "url": "https://wilf974.github.io/Veritas/",
+          "downloadUrl": "https://github.com/wilf974/Veritas",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+<style>
+:root {
+  --bg: #0d1117;
+  --bg-elev: #161b22;
+  --bg-card: #1a2029;
+  --border: #30363d;
+  --border-soft: #21262d;
+  --text: #e6edf3;
+  --text-soft: #9da7b3;
+  --text-faint: #6b7280;
+  --accent: #f0c674;
+  --green: #4ade80;
+  --red: #f87171;
+  --blue: #60a5fa;
+  --purple: #c084fc;
+  --orange: #fb923c;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #fafafa;
+    --bg-elev: #ffffff;
+    --bg-card: #ffffff;
+    --border: #e5e7eb;
+    --border-soft: #f3f4f6;
+    --text: #0a0a0a;
+    --text-soft: #525252;
+    --text-faint: #9ca3af;
+    --accent: #b8860b;
+    --green: #15803d;
+    --red: #b91c1c;
+    --blue: #1d4ed8;
+    --purple: #7c3aed;
+    --orange: #c2410c;
+  }
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 16px;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--accent); color: var(--bg); }
+
+a { color: var(--text); text-decoration: none; transition: color .15s; }
+a:hover { color: var(--accent); }
+
+img { max-width: 100%; display: block; }
+button { font-family: inherit; cursor: pointer; }
+
+.wrap { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* ============== HEADER ============== */
+header.site-header {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  background: rgba(13, 17, 23, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 50;
+}
+@media (prefers-color-scheme: light) {
+  header.site-header { background: rgba(250, 250, 250, 0.85); }
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.logo {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+.logo span { color: var(--accent); }
+.nav-links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  font-size: 14px;
+}
+@media (max-width: 640px) { .nav-links { display: none; } }
+.nav-links a { color: var(--text-soft); }
+.nav-links a:hover { color: var(--text); }
+
+/* ============== HERO ============== */
+.hero {
+  padding: 80px 0 64px;
+  text-align: left;
+  position: relative;
+}
+.hero h1 {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  font-size: clamp(40px, 6vw, 76px);
+  font-weight: 700;
+  line-height: 1.0;
+  letter-spacing: -0.035em;
+  margin-bottom: 24px;
+  max-width: 16ch;
+}
+.hero h1 .accent { color: var(--accent); }
+.hero p.lead {
+  font-size: clamp(17px, 2vw, 21px);
+  color: var(--text-soft);
+  max-width: 60ch;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  border-radius: 999px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text-soft);
+}
+.tag .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
+
+/* ============== INTRO ============== */
+.intro {
+  padding: 48px 0;
+  border-top: 1px solid var(--border-soft);
+  border-bottom: 1px solid var(--border-soft);
+}
+.intro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+}
+.intro-item .ico {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: var(--accent);
+}
+.intro-item h3 {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.intro-item p { font-size: 14px; color: var(--text-soft); }
+
+/* ============== PROJECTS ============== */
+.section-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+.eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.section-title {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+
+.projects {
+  padding: 80px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all .25s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-top: 3px solid var(--card-accent, var(--accent));
+  pointer-events: none;
+}
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--card-accent, var(--accent));
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+.card-hd {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.card-emoji { font-size: 28px; line-height: 1; }
+.card-title {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+.card-sub {
+  color: var(--text-soft);
+  font-size: 13px;
+  font-family: 'JetBrains Mono', monospace;
+  margin-top: 2px;
+}
+.card-desc {
+  font-size: 14.5px;
+  color: var(--text);
+  line-height: 1.55;
+  flex: 1;
+}
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+.meta-pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  padding: 3px 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-soft);
+  letter-spacing: 0.04em;
+}
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-soft);
+}
+.btn {
+  flex: 1;
+  text-align: center;
+  padding: 9px 14px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-soft);
+  text-decoration: none;
+  transition: all .2s;
+  font-weight: 500;
+}
+.btn:hover {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+.btn-primary {
+  background: var(--card-accent, var(--accent));
+  color: var(--bg);
+  border-color: var(--card-accent, var(--accent));
+}
+.btn-primary:hover {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+.card-warn {
+  font-size: 11.5px;
+  color: var(--text-faint);
+  font-style: italic;
+  margin-top: -2px;
+}
+
+.card[data-c="fire"]    { --card-accent: #ef4444; }
+.card[data-c="med"]     { --card-accent: var(--green); }
+.card[data-c="heat"]    { --card-accent: var(--orange); }
+.card[data-c="mind"]    { --card-accent: var(--purple); }
+.card[data-c="paie"]    { --card-accent: var(--blue); }
+.card[data-c="veritas"] { --card-accent: var(--accent); }
+
+/* ============== STACK section ============== */
+.stack-section {
+  padding: 80px 0;
+  border-top: 1px solid var(--border);
+}
+
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+.stack-item {
+  padding: 18px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  font-size: 13px;
+}
+.stack-item h4 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.stack-item p { color: var(--text); font-weight: 500; }
+
+/* ============== APPROACH ============== */
+.approach {
+  padding: 80px 0;
+  border-top: 1px solid var(--border);
+  background: var(--bg-elev);
+}
+.approach pre {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 20px;
+  margin-top: 20px;
+  overflow-x: auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+}
+.approach pre .c { color: var(--text-faint); }
+.approach pre .k { color: var(--accent); }
+.approach pre .s { color: var(--green); }
+
+/* ============== FOOTER ============== */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 48px 0 32px;
+  background: var(--bg-elev);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 36px;
+  margin-bottom: 32px;
+}
+@media (max-width: 720px) { .footer-grid { grid-template-columns: 1fr; gap: 28px; } }
+.footer-col h4 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.footer-col p { font-size: 14px; color: var(--text-soft); }
+.footer-col ul { list-style: none; display: grid; gap: 8px; font-size: 14px; }
+.footer-col a { color: var(--text-soft); }
+.footer-col a:hover { color: var(--accent); }
+
+.footer-bottom {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* ============== ANIMATIONS ============== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.reveal { animation: fadeUp .6s cubic-bezier(.4,0,.2,1) backwards; }
+.d1 { animation-delay: .05s; }
+.d2 { animation-delay: .1s; }
+.d3 { animation-delay: .15s; }
+.d4 { animation-delay: .2s; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <div class="wrap">
+    <nav class="nav" role="navigation" aria-label="Navigation principale">
+      <a class="logo" href="#" aria-label="wilf974 / Open Source · accueil">
+        wilf<span>974</span> / Open Source
+      </a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#approach">Approche</a></li>
+        <li><a href="https://github.com/wilf974" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main role="main">
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <p class="eyebrow reveal">par Wilfred Maillot · 6 outils · 100% navigateur</p>
+    <h1 id="hero-title" class="reveal d1">
+      Outils <span class="accent">déterministes</span>,<br>
+      auditables, sans backend.
+    </h1>
+    <p class="lead reveal d2">
+      Six outils open source pour praticiens : sapeurs-pompiers, médecine d'urgence, prévention coup de chaleur, audit fiche de paie française, biais cognitifs, et linter scientifique. Aucun tracking, aucune publicité, aucun backend — tout tourne dans le navigateur.
+    </p>
+    <div class="tags reveal d3" aria-label="Caractéristiques techniques">
+      <span class="tag"><span class="dot"></span>Vanilla JavaScript</span>
+      <span class="tag"><span class="dot"></span>GitHub Pages</span>
+      <span class="tag"><span class="dot"></span>Mobile-first</span>
+      <span class="tag"><span class="dot"></span>Aucun tracking</span>
+      <span class="tag"><span class="dot"></span>Audit en 30 minutes</span>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO PHILOSOPHY -->
+<section class="intro" aria-labelledby="philo">
+  <div class="wrap">
+    <h2 id="philo" class="visually-hidden" style="position:absolute;left:-9999px">Philosophie</h2>
+    <div class="intro-grid">
+      <div class="intro-item reveal">
+        <div class="ico">🧮</div>
+        <h3>Calculs déterministes</h3>
+        <p>Chaque résultat est traçable, reproductible, auditable.</p>
+      </div>
+      <div class="intro-item reveal d1">
+        <div class="ico">🔒</div>
+        <h3>Invariants formels</h3>
+        <p>Les règles métier sont explicites et testées (bornes, monotonie, idempotence).</p>
+      </div>
+      <div class="intro-item reveal d2">
+        <div class="ico">🌐</div>
+        <h3>100 % navigateur</h3>
+        <p>Un fichier HTML. Pas de backend. Pas de bundler. Pas de framework.</p>
+      </div>
+      <div class="intro-item reveal d3">
+        <div class="ico">📖</div>
+        <h3>Transparence totale</h3>
+        <p>Toutes les hypothèses et formules sont affichées dans l'app.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects" aria-labelledby="projects-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Vitrine</p>
+        <h2 id="projects-title" class="section-title">Six outils, une approche</h2>
+      </div>
+      <p style="color:var(--text-soft);max-width:36ch;font-size:14px">Tous open source (MIT/Apache-2.0), tous gratuits, tous inspectables ligne à ligne.</p>
+    </div>
+
+    <div class="grid">
+
+      <!-- FireOps -->
+      <article class="card" data-c="fire">
+        <div class="card-hd">
+          <div>
+            <h3 class="card-title">🚒 FireOps</h3>
+            <p class="card-sub">aide-décision sapeurs-pompiers</p>
+          </div>
+        </div>
+        <p class="card-desc">Calculs hydrauliques (débit, lances, pression pompe), autonomie ARI, périmètre NRBC, tri multi-victimes (méthode NOVI). Pédagogique — non certifié.</p>
+        <div class="card-meta">
+          <span class="meta-pill">Hydraulique</span>
+          <span class="meta-pill">NRBC</span>
+          <span class="meta-pill">NOVI</span>
+          <span class="meta-pill">~130 examples</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="https://wilf974.github.io/FireOps/" target="_blank" rel="noopener">Live demo</a>
+          <a class="btn" href="https://github.com/wilf974/FireOps" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <!-- MedTriage -->
+      <article class="card" data-c="med">
+        <div class="card-hd">
+          <div>
+            <h3 class="card-title">🏥 MedTriage</h3>
+            <p class="card-sub">scoring clinique d'urgence</p>
+          </div>
+        </div>
+        <p class="card-desc">Scores NEWS2, qSOFA, HEART avec fusion conservatrice pour un triage global CRITIQUE / URGENT / SEMI-URGENT / STABLE. Démonstration — non certifié.</p>
+        <div class="card-meta">
+          <span class="meta-pill">NEWS2</span>
+          <span class="meta-pill">qSOFA</span>
+          <span class="meta-pill">HEART</span>
+          <span class="meta-pill">14/14 invariants</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="https://wilf974.github.io/MedTriage/" target="_blank" rel="noopener">Live demo</a>
+          <a class="btn" href="https://github.com/wilf974/MedTriage" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <!-- HeatGuard -->
+      <article class="card" data-c="heat">
+        <div class="card-hd">
+          <div>
+            <h3 class="card-title">🌡️ HeatGuard</h3>
+            <p class="card-sub">prévention coup de chaleur</p>
+          </div>
+        </div>
+        <p class="card-desc">Heat Index + WBGT + plan NIOSH (travail/repos, hydratation). Géolocalisation + Open-Meteo gratuit. 5 niveaux ajustés selon vulnérabilité. Pédagogique — non médical.</p>
+        <div class="card-meta">
+          <span class="meta-pill">Heat Index</span>
+          <span class="meta-pill">WBGT</span>
+          <span class="meta-pill">NIOSH</span>
+          <span class="meta-pill">95 examples</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="https://wilf974.github.io/HeatGuard/" target="_blank" rel="noopener">Live demo</a>
+          <a class="btn" href="https://github.com/wilf974/HeatGuard" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <!-- MindMirror -->
+      <article class="card" data-c="mind">
+        <div class="card-hd">
+          <div>
+            <h3 class="card-title">🪞 MindMirror</h3>
+            <p class="card-sub">sors de ta bulle algorithmique</p>
+          </div>
+        </div>
+        <p class="card-desc">Audit URL + test 12 biais cognitifs + onglet Formation (8 biais, 6 manipulations). 100 % local, 100 % privé, aucune donnée envoyée. Auto-évaluation — non clinique.</p>
+        <div class="card-meta">
+          <span class="meta-pill">Audit URL</span>
+          <span class="meta-pill">12 biais</span>
+          <span class="meta-pill">Formation</span>
+          <span class="meta-pill">71 examples</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="https://wilf974.github.io/MindMirror/" target="_blank" rel="noopener">Live demo</a>
+          <a class="btn" href="https://github.com/wilf974/MindMirror" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <!-- PaieAudit -->
+      <article class="card" data-c="paie">
+        <div class="card-hd">
+          <div>
+            <h3 class="card-title">🧾 PaieAudit</h3>
+            <p class="card-sub">audit fiche de paie française</p>
+          </div>
+        </div>
+        <p class="card-desc">Upload PDF (parsé localement via pdf.js) → extraction des 3 nets, heures sup, primes, retenues. 6 vérifications de cohérence math. Indicatif — pas un avis juridique.</p>
+        <div class="card-meta">
+          <span class="meta-pill">Import PDF</span>
+          <span class="meta-pill">Cohérence math</span>
+          <span class="meta-pill">Indemnités</span>
+          <span class="meta-pill">111 examples</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="https://wilf974.github.io/PaieAudit/" target="_blank" rel="noopener">Live demo</a>
+          <a class="btn" href="https://github.com/wilf974/PaieAudit" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <!-- VERITAS -->
+      <article class="card" data-c="veritas">
+        <div class="card-hd">
+          <div>
+            <h3 class="card-title">⚖️ VERITAS</h3>
+            <p class="card-sub">linter pour claims scientifiques</p>
+          </div>
+        </div>
+        <p class="card-desc">Pipeline en 6 couches : génération, attestation, consensus 12 témoins, réfutation par 7 objections. Vérifie mécaniquement la cohérence et la défendabilité d'une claim numérique. Prototype de recherche.</p>
+        <div class="card-meta">
+          <span class="meta-pill">Aether</span>
+          <span class="meta-pill">7 objections</span>
+          <span class="meta-pill">170 tests</span>
+          <span class="meta-pill">Cas d'étude</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="https://wilf974.github.io/Veritas/" target="_blank" rel="noopener">Live demo</a>
+          <a class="btn" href="https://github.com/wilf974/Veritas" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- STACK -->
+<section class="stack-section" id="stack" aria-labelledby="stack-title">
+  <div class="wrap">
+    <p class="eyebrow">Stack technique</p>
+    <h2 id="stack-title" class="section-title">Choix volontaires</h2>
+    <p style="color:var(--text-soft);max-width:60ch;margin-top:14px">
+      Le code est volontairement contenu dans un seul fichier <code>index.html</code> par projet. Un audit de sécurité ou de cohérence métier se fait en <strong>30 minutes</strong>.
+    </p>
+
+    <div class="stack-grid">
+      <div class="stack-item"><h4>Front-end</h4><p>HTML5 + CSS3 + Vanilla JavaScript (ES2020+)</p></div>
+      <div class="stack-item"><h4>Polices</h4><p>DM Sans + JetBrains Mono — Google Fonts</p></div>
+      <div class="stack-item"><h4>PWA</h4><p>Service Worker cache-first + manifest</p></div>
+      <div class="stack-item"><h4>Hébergement</h4><p>GitHub Pages (statique, gratuit)</p></div>
+      <div class="stack-item"><h4>Build</h4><p>Aucun. python -m http.server suffit.</p></div>
+      <div class="stack-item"><h4>Dépendances runtime</h4><p>Zéro</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="approach" id="approach" aria-labelledby="approach-title">
+  <div class="wrap">
+    <p class="eyebrow">Méthode</p>
+    <h2 id="approach-title" class="section-title">Invariants & auditabilité</h2>
+    <p style="color:var(--text-soft);max-width:60ch;margin-top:14px">
+      Chaque calcul critique est encadré par des <strong>invariants formels</strong> vérifiés à l'exécution. Si un invariant est violé, l'app affiche un toast d'erreur visible au lieu de produire un résultat silencieusement faux.
+    </p>
+
+    <pre aria-label="Exemple FireOps : pression à la pompe"><span class="c">// FireOps : pression à la pompe</span>
+<span class="k">pression_pompe</span>(p_lance, perte, denivele) {
+  <span class="c">// ...calcul...</span>
+  <span class="k">this</span>._check(result &gt;= 0 &amp;&amp; result &lt;= 16,
+    <span class="s">'pression_pompe hors bornes'</span>);
+  <span class="k">return</span> result;
+}</pre>
+
+    <pre aria-label="Exemple MedTriage : invariant de triage"><span class="c">// MedTriage : invariant de triage</span>
+<span class="k">triage</span>(n2, qs, ht) {
+  <span class="c">// @invariant qSOFA ≥ 2 → triage = CRITICAL</span>
+  Engine._assert(criticalRequired === isCritical,
+    <span class="s">'Triage CRITICAL invariant mismatch'</span>);
+}</pre>
+  </div>
+</section>
+
+</main>
+
+<footer role="contentinfo">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>wilf974 / Open Source</h4>
+        <p>
+          Six outils déterministes, auditables, 100 % navigateur. Pour praticiens, étudiants, et toute personne qui veut un calcul transparent à la place d'une boîte noire.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Repos</h4>
+        <ul>
+          <li><a href="https://github.com/wilf974/FireOps" target="_blank" rel="noopener">FireOps</a></li>
+          <li><a href="https://github.com/wilf974/MedTriage" target="_blank" rel="noopener">MedTriage</a></li>
+          <li><a href="https://github.com/wilf974/HeatGuard" target="_blank" rel="noopener">HeatGuard</a></li>
+          <li><a href="https://github.com/wilf974/MindMirror" target="_blank" rel="noopener">MindMirror</a></li>
+          <li><a href="https://github.com/wilf974/PaieAudit" target="_blank" rel="noopener">PaieAudit</a></li>
+          <li><a href="https://github.com/wilf974/Veritas" target="_blank" rel="noopener">VERITAS</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liens</h4>
+        <ul>
+          <li><a href="https://github.com/wilf974" target="_blank" rel="noopener">Profil GitHub</a></li>
+          <li><a href="https://github.com/wilf974/OpenSource" target="_blank" rel="noopener">Repo OpenSource</a></li>
+          <li><a href="https://github.com/wilf974/OpenSource/blob/main/LICENSE" target="_blank" rel="noopener">Licence MIT</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">
+      MIT · © 2026 Wilfred Maillot · Aucun tracking · Aucune pub · Aucun backend
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

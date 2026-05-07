@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wilf974.github.io/OpenSource/sitemap.xml

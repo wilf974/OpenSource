@@ -122,7 +122,19 @@ Upload PDF (parsé localement via pdf.js) → extraction des 3 nets (imposable/s
 </td>
 <td width="50%" valign="top">
 
-<!-- Emplacement libre pour 6ᵉ projet -->
+### ⚖️ [VERITAS](https://github.com/wilf974/Veritas)
+
+**Linter scientifique multi-couches**
+
+Pipeline en 6 algorithmes Aether : génération (Joseph), attestation arithmétique (Mané Thékel Pharès), 7 sceaux structurels, composition cross-link, consensus 12 témoins (Pentecôte), réfutation par 7 objections (Tribunal). Vérifie mécaniquement la cohérence et la défendabilité d'une claim numérique.
+
+- ⚖️ 7 objections · 🕊️ 12 apôtres · 🎯 170 tests
+- 80+ examples / 16 invariants / 0 violation
+
+[![Live demo](https://img.shields.io/badge/Live_demo-online-b8860b?logo=githubpages)](https://wilf974.github.io/Veritas/)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/Veritas)
+
+> ⚠️ Prototype de recherche — pas un arbitre de vérité scientifique.
 
 </td>
 </tr>
