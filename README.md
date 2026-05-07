@@ -109,10 +109,10 @@ Audit URL + test 12 biais cognitifs + onglet Formation (8 biais, 6 manipulations
 
 **Audit de ta fiche de paie française**
 
-Upload PDF de fiche de paie (parsé localement) ou texte → détecte SMIC non respecté, heures sup non payées, écarts brut/net. Calcul indemnité licenciement (R.1234-2). Articles Code du travail.
+Upload PDF (parsé localement via pdf.js) → extraction des 3 nets (imposable/social/à payer), heures sup, primes, retenues. **6 vérifications de cohérence math** : brut = base + hsup + primes, net social = brut − cotisations, taux cotisations ∈ fourchette, etc.
 
-- 📄 Import PDF local · ⚖️ Indemnités · 📚 Loi
-- 64 exemples / 19 invariants
+- 📄 Import PDF · 📊 Cohérence math · ⚖️ Indemnités
+- 111 exemples / 32 invariants
 
 [![Live demo](https://img.shields.io/badge/Live_demo-online-1d4ed8?logo=githubpages)](https://wilf974.github.io/PaieAudit/)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/PaieAudit)
