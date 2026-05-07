@@ -31,40 +31,58 @@ Tous les projets de cette page partagent **la même approche** :
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🚒 [FireOps](https://github.com/wilf974/FireOps)
 
 **Aide à la décision sapeurs-pompiers**
 
-Outil pédagogique pour interventions : calculs hydrauliques (débit, lances, pression pompe), autonomie ARI, périmètre NRBC, tri multi-victimes (NOVI). Synthèse worst-case avec action prioritaire toujours visible. Export bilan radio + main courante.
+Calculs hydrauliques (débit, lances, pression pompe), autonomie ARI, périmètre NRBC, tri multi-victimes (NOVI). Synthèse worst-case avec action prioritaire.
 
-- 💧 Hydraulique · ☣️ NRBC · 🚑 NOVI · 📋 Synthèse
-- PWA installable · 100 % offline
-- ~130 exemples / 21 invariants formels validés
+- 💧 Hydraulique · ☣️ NRBC · 🚑 NOVI
+- ~130 exemples / 21 invariants
+- Export bilan radio + main courante
 
-[![Live demo](https://img.shields.io/badge/Live_demo-wilf974.github.io%2FFireOps-b91c1c?logo=githubpages)](https://wilf974.github.io/FireOps/)
-[![Code](https://img.shields.io/badge/Code-FireOps-181717?logo=github)](https://github.com/wilf974/FireOps)
+[![Live demo](https://img.shields.io/badge/Live_demo-online-b91c1c?logo=githubpages)](https://wilf974.github.io/FireOps/)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/FireOps)
 
-> ⚠️ Outil pédagogique — non certifié opérationnel.
+> ⚠️ Pédagogique — non certifié.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🏥 [MedTriage](https://github.com/wilf974/MedTriage)
 
 **Scoring clinique d'urgence**
 
-Calcul des scores cliniques NEWS2, qSOFA, HEART avec fusion conservatrice (worst-case) pour un triage global CRITIQUE / URGENT / SEMI-URGENT / STABLE. Audit log complet pour chaque calcul.
+Scores NEWS2, qSOFA, HEART avec fusion conservatrice pour un triage global CRITIQUE / URGENT / SEMI-URGENT / STABLE. Audit log complet.
 
 - 📊 NEWS2 · 🦠 qSOFA · ❤️‍🔥 HEART
-- 14/14 invariants formels vérifiés
+- 14/14 invariants vérifiés
 - Single HTML — 100 % offline
 
-[![Live demo](https://img.shields.io/badge/Live_demo-wilf974.github.io%2FMedTriage-1a7a4a?logo=githubpages)](https://wilf974.github.io/MedTriage/)
-[![Code](https://img.shields.io/badge/Code-MedTriage-181717?logo=github)](https://github.com/wilf974/MedTriage)
+[![Live demo](https://img.shields.io/badge/Live_demo-online-1a7a4a?logo=githubpages)](https://wilf974.github.io/MedTriage/)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/MedTriage)
 
-> ⚠️ Démonstration technique — pas un dispositif médical certifié.
+> ⚠️ Démonstration — pas certifié.
+
+</td>
+<td width="33%" valign="top">
+
+### 🌡️ [HeatGuard](https://github.com/wilf974/HeatGuard)
+
+**Prévention coup de chaleur**
+
+Heat Index + WBGT + plan NIOSH (travail/repos, hydratation). Géolocalisation + API Open-Meteo gratuite. 5 niveaux de risque ajustés selon vulnérabilité.
+
+- 🌞 Heat Index · WBGT · NIOSH
+- 95 exemples / 18 invariants
+- API météo auto + manuel
+
+[![Live demo](https://img.shields.io/badge/Live_demo-online-c2410c?logo=githubpages)](https://wilf974.github.io/HeatGuard/)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/HeatGuard)
+
+> ⚠️ Pédagogique — non médical.
 
 </td>
 </tr>
