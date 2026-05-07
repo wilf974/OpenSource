@@ -153,11 +153,17 @@ Pipeline en 6 algorithmes Aether qui génèrent, attestent et critiquent des cla
 
 **Objectif** : aider à détecter les incohérences de calcul, les conclusions trop fortes, et les claims insuffisamment défendables — *avant* la peer review humaine, pas à sa place.
 
-- ~1 600 lignes Aether · ~140 fonctions
-- 300+ `@example` · 80+ `@invariant`
-- 400+ probes adverses, 0 violation
-- Benchmark 170 tests · case study 10 claims
+**What it is** : a symbolic linter for numerical claims.
+**What it is not** : a truth machine, a medical device, or an automated peer reviewer.
 
+| Métrique | Valeur |
+|---|---|
+| Lignes Aether (stack complet) | ~1 600 · ~140 fonctions |
+| Stack complet | 300+ `@example` · 80+ `@invariant` |
+| Tribunal seul | 80+ `@example` · 16 `@invariant` · 0 violation |
+| Adversarial / benchmark | 400+ probes · 170 tests · case study 10 claims |
+
+[![📖 Lire le cas d'étude (5 min)](https://img.shields.io/badge/📖_Lire_le_cas_d'étude-5_min-b8860b?style=for-the-badge)](https://github.com/wilf974/Veritas/blob/main/examples/case_study.md)
 [![Live demo](https://img.shields.io/badge/Live_demo-online-b8860b?logo=githubpages)](https://wilf974.github.io/Veritas/)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/Veritas)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/wilf974/Veritas/blob/main/LICENSE)
