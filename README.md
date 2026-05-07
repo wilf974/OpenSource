@@ -102,6 +102,30 @@ Audit URL + test 12 biais cognitifs + onglet Formation (8 biais, 6 manipulations
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧾 [PaieAudit](https://github.com/wilf974/PaieAudit)
+
+**Audit de ta fiche de paie française**
+
+Upload PDF de fiche de paie (parsé localement) ou texte → détecte SMIC non respecté, heures sup non payées, écarts brut/net. Calcul indemnité licenciement (R.1234-2). Articles Code du travail.
+
+- 📄 Import PDF local · ⚖️ Indemnités · 📚 Loi
+- 64 exemples / 19 invariants
+
+[![Live demo](https://img.shields.io/badge/Live_demo-online-1d4ed8?logo=githubpages)](https://wilf974.github.io/PaieAudit/)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/PaieAudit)
+
+> ⚠️ Audit indicatif — pas un avis juridique.
+
+</td>
+<td width="50%" valign="top">
+
+<!-- Emplacement libre pour 6ᵉ projet -->
+
+</td>
+</tr>
 </table>
 
 ---
