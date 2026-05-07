@@ -27,7 +27,9 @@ Tous les projets de cette page partagent **la même approche** :
 
 ---
 
-## 🚀 Projets en vitrine
+## 🚀 Projets en vitrine — outils opérationnels
+
+> Aide à la décision pour praticiens. Tous **pédagogiques, non certifiés**.
 
 <table>
 <tr>
@@ -122,23 +124,45 @@ Upload PDF (parsé localement via pdf.js) → extraction des 3 nets (imposable/s
 </td>
 <td width="50%" valign="top">
 
-### ⚖️ [VERITAS](https://github.com/wilf974/Veritas)
-
-**Linter scientifique multi-couches**
-
-Pipeline en 6 algorithmes Aether : génération (Joseph), attestation arithmétique (Mané Thékel Pharès), 7 sceaux structurels, composition cross-link, consensus 12 témoins (Pentecôte), réfutation par 7 objections (Tribunal). Vérifie mécaniquement la cohérence et la défendabilité d'une claim numérique.
-
-- ⚖️ 7 objections · 🕊️ 12 apôtres · 🎯 170 tests
-- 80+ examples / 16 invariants / 0 violation
-
-[![Live demo](https://img.shields.io/badge/Live_demo-online-b8860b?logo=githubpages)](https://wilf974.github.io/Veritas/)
-[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/Veritas)
-
-> ⚠️ Prototype de recherche — pas un arbitre de vérité scientifique.
+<!-- emplacement libre pour le prochain outil opérationnel -->
 
 </td>
 </tr>
 </table>
+
+---
+
+## 🔬 Research prototypes
+
+> Travaux de recherche exploratoires sur l'attestation et la défendabilité de claims numériques. **Pas des outils métier — des terrains d'expérience.**
+
+### ⚖️ [VERITAS Stack](https://github.com/wilf974/Veritas)
+
+**Linter symbolique pour claims numériques scientifiques.**
+
+Pipeline en 6 algorithmes Aether qui génèrent, attestent et critiquent des claims numériques :
+
+| Couche | Question posée |
+|---|---|
+| **Joseph** | Génération d'une claim auto-attestée |
+| **Mané Thékel Pharès** | Attestation arithmétique (le calcul se prouve lui-même) |
+| **Sept Sceaux** | Structure du raisonnement en 7 dimensions |
+| **VERITAS** | Cross-link formule ↔ raisonnement |
+| **Pentecôte** | Consensus 12 témoins indépendants |
+| **Tribunal** | Réfutation par 7 objections systématiques |
+
+**Objectif** : aider à détecter les incohérences de calcul, les conclusions trop fortes, et les claims insuffisamment défendables — *avant* la peer review humaine, pas à sa place.
+
+- ~1 600 lignes Aether · ~140 fonctions
+- 300+ `@example` · 80+ `@invariant`
+- 400+ probes adverses, 0 violation
+- Benchmark 170 tests · case study 10 claims
+
+[![Live demo](https://img.shields.io/badge/Live_demo-online-b8860b?logo=githubpages)](https://wilf974.github.io/Veritas/)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/Veritas)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/wilf974/Veritas/blob/main/LICENSE)
+
+> ⚠️ **Prototype de recherche** — ne remplace pas la peer review humaine ni l'expertise scientifique. Ne lit pas les papiers tout seul : un humain encode les métadonnées, le stack applique une grille de décision stable.
 
 ---
 
