@@ -31,17 +31,16 @@ Tous les projets de cette page partagent **la même approche** :
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 🚒 [FireOps](https://github.com/wilf974/FireOps)
 
 **Aide à la décision sapeurs-pompiers**
 
-Calculs hydrauliques (débit, lances, pression pompe), autonomie ARI, périmètre NRBC, tri multi-victimes (NOVI). Synthèse worst-case avec action prioritaire.
+Calculs hydrauliques (débit, lances, pression pompe), autonomie ARI, périmètre NRBC, tri multi-victimes (NOVI).
 
 - 💧 Hydraulique · ☣️ NRBC · 🚑 NOVI
 - ~130 exemples / 21 invariants
-- Export bilan radio + main courante
 
 [![Live demo](https://img.shields.io/badge/Live_demo-online-b91c1c?logo=githubpages)](https://wilf974.github.io/FireOps/)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/FireOps)
@@ -49,17 +48,16 @@ Calculs hydrauliques (débit, lances, pression pompe), autonomie ARI, périmètr
 > ⚠️ Pédagogique — non certifié.
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 🏥 [MedTriage](https://github.com/wilf974/MedTriage)
 
 **Scoring clinique d'urgence**
 
-Scores NEWS2, qSOFA, HEART avec fusion conservatrice pour un triage global CRITIQUE / URGENT / SEMI-URGENT / STABLE. Audit log complet.
+Scores NEWS2, qSOFA, HEART avec fusion conservatrice pour un triage global CRITIQUE / URGENT / SEMI-URGENT / STABLE.
 
 - 📊 NEWS2 · 🦠 qSOFA · ❤️‍🔥 HEART
 - 14/14 invariants vérifiés
-- Single HTML — 100 % offline
 
 [![Live demo](https://img.shields.io/badge/Live_demo-online-1a7a4a?logo=githubpages)](https://wilf974.github.io/MedTriage/)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/MedTriage)
@@ -67,22 +65,40 @@ Scores NEWS2, qSOFA, HEART avec fusion conservatrice pour un triage global CRITI
 > ⚠️ Démonstration — pas certifié.
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🌡️ [HeatGuard](https://github.com/wilf974/HeatGuard)
 
 **Prévention coup de chaleur**
 
-Heat Index + WBGT + plan NIOSH (travail/repos, hydratation). Géolocalisation + API Open-Meteo gratuite. 5 niveaux de risque ajustés selon vulnérabilité.
+Heat Index + WBGT + plan NIOSH (travail/repos, hydratation). Géolocalisation + Open-Meteo gratuit. 5 niveaux ajustés selon vulnérabilité.
 
 - 🌞 Heat Index · WBGT · NIOSH
 - 95 exemples / 18 invariants
-- API météo auto + manuel
 
 [![Live demo](https://img.shields.io/badge/Live_demo-online-c2410c?logo=githubpages)](https://wilf974.github.io/HeatGuard/)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/HeatGuard)
 
 > ⚠️ Pédagogique — non médical.
+
+</td>
+<td width="50%" valign="top">
+
+### 🪞 [MindMirror](https://github.com/wilf974/MindMirror)
+
+**Sors de ta bulle algorithmique**
+
+Audit URL + test 12 biais cognitifs + onglet Formation (8 biais, 6 manipulations). 100 % local, 100 % privé, aucune donnée envoyée.
+
+- 🔗 Audit · 🧠 Test biais · 📚 Formation
+- 71 exemples / 16 invariants
+
+[![Live demo](https://img.shields.io/badge/Live_demo-online-7c3aed?logo=githubpages)](https://wilf974.github.io/MindMirror/)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/wilf974/MindMirror)
+
+> ⚠️ Auto-évaluation — pas clinique.
 
 </td>
 </tr>
